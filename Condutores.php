@@ -13,10 +13,10 @@ Class Condutores
 	{
 		// ----------------------- MYSQL --------------------
 		// conexão com a base de dados MySql 
-		$host = "localhost";
-		$usuario = "??????";
-		$senha = "????????";
-		$bd = "??????";
+		$host = "db4free.net";
+		$usuario = "locacaocarlosdb";
+		$senha = "12345678";
+		$bd = "locacaocarlosdb";
 		$this->con = mysqli_connect($host, $usuario, $senha, $bd);
 		return $this->con;
 	}
